@@ -6,9 +6,9 @@
 def solution(heights):
     answer = []
     for idx, ele in enumerate(heights):
-        if idx == 0:
-            answer.append(0)
-            continue
+        # if idx == 0:
+        #     answer.append(0)
+        #     continue
         flag = False
         for i in range(idx,-1,-1):
             if heights[i] > ele:
